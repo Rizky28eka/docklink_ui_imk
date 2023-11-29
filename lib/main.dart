@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:slicing_docklink_ui_imk/page/auth/onboarding.dart';
+import 'package:slicing_docklink_ui_imk/page/onboarding_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: const OnBoarding(),
+      home: const OnboardingPage(),
     );
   }
 }
